@@ -3,7 +3,7 @@ $.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof att
 
 
 $(document).ready(function() {
-r=function(){dpi=window.devicePixelRatio;$('.js-80').attr('src', (dpi>1) ? 'images/12345-1594.jpg' : 'images/12345-797.jpg');};
+r=function(){dpi=window.devicePixelRatio;$('.js-75').attr('src', (dpi>1) ? 'images/12345-1594.jpg' : 'images/12345-797.jpg');};
 if(!window.HTMLPictureElement){r();}
 (function(){$('a[href^="#"]:not(.allowConsent,.noConsent,.denyConsent,.removeConsent)').each(function(){$(this).click(function(){var t=this.hash.length>1?$('[name="'+this.hash.slice(1)+'"]').offset().top:0;return $("html, body").animate({scrollTop:t},400),!1})})})();
 
